@@ -1,0 +1,28 @@
+# --- Python & ML ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# --- Données Lourdes (CFD) ---
+# On ignore tout le dossier data, sauf le dossier lui-même
+data/raw/
+data/processed/
+*.vtk
+*.casedat
+*.cas
+*.dat
+*.msh
+*.polyMesh
+
+# --- Résultats de simulations (ex: dossiers 0, 10, 20... d'OpenFOAM) ---
+[0-9]*/
+postProcessing/
+
+# --- Logs et fichiers temporaires ---
+*.log
+*.tmp
+.DS_Store
