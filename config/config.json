@@ -1,0 +1,11 @@
+{
+    "dataset_root": "data/raw",
+    "processed_root": "data/processed",
+    "batch_size": 4,
+    "epochs": 50,
+    "learning_rate": 0.001,
+    "model_type": "GNN",
+    "hidden_dim": 64,
+    "wandb_project": "CFD_2D_Surrogate"
+  }
+  
